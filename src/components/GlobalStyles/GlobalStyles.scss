@@ -1,0 +1,58 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+    --primary-color: #fe2c55;
+}
+
+*,
+*::before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    color: #333;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed; //tối ưu tốc độ hiển thị font
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+input,
+button,
+select,
+textarea {
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+}
+
+input,
+textarea {
+    line-height: normal;
+}
+
+button {
+    cursor: pointer;
+}
